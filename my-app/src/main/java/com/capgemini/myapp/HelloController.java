@@ -10,7 +10,11 @@ public class HelloController {
 
 	@RequestMapping("/hello")
 	//comment added to check automatic build from Jenkins 
+<<<<<<< HEAD
 	//test removed
+=======
+	//Test comment edited
+>>>>>>> branch 'master' of https://github.com/msisodia/MyCodes
 	public String hello(Model model,@RequestParam(value = "name", required = false, defaultValue = "World") String name) {
 		model.addAttribute("name", name);
 		return "hello";
