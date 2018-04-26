@@ -11,6 +11,7 @@ public class HelloController {
 	@RequestMapping("/hello")
 	//comment added to check automatic build from Jenkins 
 	// poll test
+	//poll test again
 	public String hello(Model model,@RequestParam(value = "name", required = false, defaultValue = "World") String name) {
 		model.addAttribute("name", name);
 		return "hello";
