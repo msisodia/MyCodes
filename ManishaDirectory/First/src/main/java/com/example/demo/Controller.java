@@ -11,7 +11,7 @@ public class Controller {
 	private WebService webService;
 
 	@RequestMapping("/myfirst")
-	//Test Comment Added
+	//Test Comment Removed
 	public String Hello() {
 		return webService.supportedHello();
 
