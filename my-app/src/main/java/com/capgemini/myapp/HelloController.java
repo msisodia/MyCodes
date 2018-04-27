@@ -9,11 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class HelloController {
 
 	@RequestMapping("/hello")
-	// comment added to check automatic build from Jenkins
-
-	// test removed
-
-	// Test comment edited
+	//All comments removed 
 	public String hello(Model model,
 			@RequestParam(value = "name", required = false, defaultValue = "World") String name) {
 		model.addAttribute("name", name);
