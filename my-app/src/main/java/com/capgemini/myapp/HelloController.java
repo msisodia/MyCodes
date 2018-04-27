@@ -9,8 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class HelloController {
 
 	@RequestMapping("/hello")
-	//Second Polling Test
-	//Third Polling Test
+	//No comment
 	public String hello(Model model,
 			@RequestParam(value = "name", required = false, defaultValue = "World") String name) {
 		model.addAttribute("name", name);
