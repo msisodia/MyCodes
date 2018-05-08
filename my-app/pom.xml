@@ -74,7 +74,7 @@
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<version>2.2</version>
 				<configuration>
-					<url>http://34.217.49.167:8080/hello</url>
+					<url>http://34.217.49.167:8080/manager/html</url>
 					<update>true</update>
 					<server>TomcatServer</server>
 					<path>/HelloWorldWebApp</path>
