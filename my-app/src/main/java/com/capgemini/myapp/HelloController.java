@@ -10,7 +10,7 @@ public class HelloController {
 
 	@RequestMapping("/hello")
 	public String hello(Model model,
-			@RequestParam(value = "name", required = false, defaultValue = "World from CICD") String name) {
+			@RequestParam(value = "name", required = false, defaultValue = "CICD pipeline") String name) {
 		model.addAttribute("name", name);
 		return "hello";
 	}
