@@ -7,11 +7,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class HelloController {
-//AWS linux machine is running....
-	//Continuous deployment check...
+
 	@RequestMapping("/hello")
 	public String hello(Model model,
-			@RequestParam(value = "name", required = false, defaultValue = "World") String name) {
+			@RequestParam(value = "name", required = false, defaultValue = "World from CICD") String name) {
 		model.addAttribute("name", name);
 		return "hello";
 	}
