@@ -77,7 +77,7 @@
 					<url>http://34.217.49.167:8080/manager/text</url>
 					<update>true</update>
 					<server>TomcatServer</server>
-					<path>/HelloWorldWebApp</path>
+					<path>/HelloWorldWebApp/hello</path>
 					<username>tomcat</username>
        			 <password>tomcat</password>
 					
