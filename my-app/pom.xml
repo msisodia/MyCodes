@@ -75,23 +75,15 @@
 				<version>2.2</version>
 				<configuration>
 					<url>http://34.217.49.167:8080/manager/text/</url>
+
 					<update>true</update>
 					<server>TomcatServer</server>
 					<path>/my-app</path>
 					<username>tomcat</username>
-       			 <password>tomcat</password>
-					
+					<password>tomcat</password>
+
 				</configuration>
 			</plugin>
-
-
-
-
-
-
-
-
-
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
@@ -118,6 +110,4 @@
 			</properties>
 		</profile>
 	</profiles>
-
-
 </project>
