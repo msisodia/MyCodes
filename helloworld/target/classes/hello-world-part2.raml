@@ -1,0 +1,15 @@
+#%RAML 1.0
+baseUri: https://mocksvc.mulesoft.com/mocks/e197e0ec-f88b-472e-810c-2474ef07c152 # 
+title: Hello World Part2
+/hello:
+ get:
+   responses: 
+     200:
+      body: 
+        application/json:
+          example:
+           {
+            "Message": "Hello World ! "
+           }
+          
+  
